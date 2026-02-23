@@ -1,0 +1,25 @@
+@config "../tailwindcss.config.js";
+@import 'tailwindcss';
+
+
+.img_top_1{
+	@apply tw:w-[25px] tw:h-[25px] tw:my-auto tw:ml-auto tw:mr-0
+}
+.div_top_1{
+	@apply tw:my-auto tw:ml-[10px] tw:mr-auto tw:text-white tw:text-[17px]
+}
+.el_menu_top_1{
+	@apply tw:h-full tw:bg-[#545c64] tw:text-white tw:active:text-[#ffd04b]
+}
+.el_header_top_1{
+	@apply tw:m-0 tw:p-0 tw:h-[80px]
+}
+.el_container_top_1{
+	@apply tw:bg-[blanchedalmond] tw:m-0 tw:p-0 tw:h-[80px]
+}
+.div_top_2{
+	@apply tw:m-auto tw:ml-[100px]
+}
+.div_top_3{
+	@apply tw:m-auto tw:mr-[50px]
+}
